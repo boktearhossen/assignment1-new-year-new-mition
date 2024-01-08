@@ -3,7 +3,6 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@ body{
 
 /* banner */
 .banner{
-    background-image: url('./image/Banner\ Image.png');
+    background: url('./image/Banner\ Image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,4 +60,81 @@ body{
     font-size:35px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+/* welcome */
+
+.welcome{
+    background: url("./image/Vectorrr.png");
+    border-radius: 20px;
+    margin: 60px;
+    padding: 60px;
+}
+
+.welcome-content{
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+.welcome-text{
+ width: 70%;
+}
+
+.welcome-img{
+  width: 30%;
+
+}
+.welcome-text h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+}
+.welcome-text p{
+color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+}
+
+.welcome-text button{
+    margin-top: 15px;
+    background-color: #10dd2b; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* SCHEDULE  */
+.schedule{
+    margin: 0 60px 60px 60px;
+    background: linear-gradient(to bottom, #FFE7E7, #f5f1f1);
+    padding: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.schedule-content h4{
+    color: #F00;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.schedule-content h4 span{
+    color: black;
+
+}
+.schedule-content button{
+    margin-top: 15px;
+    background-color: #F00; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
 }
