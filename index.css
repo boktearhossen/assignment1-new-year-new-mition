@@ -31,7 +31,9 @@ body{
     text-align: center;
 }
 .banner_text h1{
-    color: #FFF;
+    text-align: center;
+    margin-top: 33px;
+    color: #F00;
     font-size: 72px;
     font-weight: 700;
     line-height: 70px;
@@ -96,7 +98,7 @@ font-weight: 400;
 
 .welcome-text button{
     margin-top: 15px;
-    background-color: #10dd2b; 
+    background-color: #F00; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -177,6 +179,103 @@ font-weight: 400;
     color: rgba(7, 2, 17, 0.60);
    
 }
-/* .portfolio-image:hover  {
-    padding: 10px;
-} */
+
+
+/* subscribe */
+.subscribe{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #FFF2F2;
+    padding: 60px 0;
+    margin: 60px;
+}
+
+
+
+.subscribe_content h2 {
+color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 900;
+}
+.subscribe_content p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subscribe_input{
+  margin-top: 22px;
+
+}
+.subscribe_input input{
+ outline: none;
+ margin: 0;
+ padding: 13px 40px;
+ background-color: rgb(235, 225, 225);
+ border: none;
+width: 322px;
+border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+
+}
+.subscribe_input button{
+    margin-top: 15px;
+    background-color: #F00; 
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: -7px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+.footer_top{
+    display: flex;
+}
+.footer_top_left h4{
+    line-height: 25px;
+}
+.footer_top_left{
+ width: 70%;
+}
+.contact{
+    display: flex;
+
+}
+.contact img{
+    width: 20px;
+    margin-right: 10px;
+   margin-bottom: 10px;
+}
+hr{
+    margin: 40px 0;
+    color: #333;
+    height: 1px;
+    
+    border-color: #333;
+}
+.social{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.social img{
+  margin-right: 20px;
+}
+
+
