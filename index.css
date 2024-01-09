@@ -140,6 +140,46 @@ font-weight: 400;
     border-radius: 5px;
     cursor: pointer;
 }
+/* comming-soon */
+
+.comming-soon{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.comming_section{
+    width: 30%;
+}
+.comming_section .Ellipse{
+    border: 12px solid red;
+    border-radius: 100%;
+    padding: 10px;
+}
+.comming_right{
+   padding-left: 60px;
+}
+.comming_right img{
+    margin-top: 25px;
+}
+.comming_section h4{
+    color: #F00;
+}
+.comming_section h2{
+    color: #070211;
+    font-size: 33px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.comming_section h3{
+    color: #F00;
+    font-size: 33px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
 
 /* portfolio */
 .portfolio{
